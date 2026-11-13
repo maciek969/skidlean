@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "catlean",
+  "version": "0.1.2",
+  "name": "CatLean",
+  "description": "",
+  "authors": [
+    "pan4ur",
+    "06ED"
+  ],
+  "contact": {},
+  "accessWidener": "catlean.accesswidener",
+  "license": "All-Rights-Reserved",
+  "icon": "assets/catlean/textures/exclude/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "su.catlean.CatLean"
+      }
+    ],
+    "preLaunch": [
+      {
+        "adapter": "kotlin",
+        "value": "su.catlean.PreLaunch"
+      }
+    ]
+  },
+  "mixins": [
+    {
+      "config": "catlean.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "fabric-language-kotlin": ">=1.13.6+kotlin.2.2.20",
+    "fabric": "*",
+    "minecraft": ">=1.21.11"
+  }
+}

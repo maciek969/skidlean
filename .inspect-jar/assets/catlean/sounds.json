@@ -1,0 +1,127 @@
+{
+  "armor-alert": {
+    "sounds": [
+      "catlean:armor-alert"
+    ]
+  },
+  "chat-mention": {
+    "sounds": [
+      "catlean:chat-mention"
+    ]
+  },
+  "config-load": {
+    "sounds": [
+      "catlean:config-load"
+    ]
+  },
+  "config-save": {
+    "sounds": [
+      "catlean:config-save"
+    ]
+  },
+  "crystal-kill": {
+    "sounds": [
+      "catlean:crystal-kill"
+    ]
+  },
+  "disable": {
+    "sounds": [
+      "catlean:disable"
+    ]
+  },
+  "enable": {
+    "sounds": [
+      "catlean:enable"
+    ]
+  },
+  "first-launch": {
+    "sounds": [
+      "catlean:first-launch"
+    ]
+  },
+  "found-stash": {
+    "sounds": [
+      "catlean:found-stash"
+    ]
+  },
+  "kill": {
+    "sounds": [
+      "catlean:kill1",
+      "catlean:kill2",
+      "catlean:kill3",
+      "catlean:kill4",
+      "catlean:kill5",
+      "catlean:kill6"
+    ]
+  },
+  "lag": {
+    "sounds": [
+      "catlean:lag"
+    ]
+  },
+  "lag-back": {
+    "sounds": [
+      "catlean:lag-back"
+    ]
+  },
+  "no-settings": {
+    "sounds": [
+      "catlean:no-settings"
+    ]
+  },
+  "private-message": {
+    "sounds": [
+      "catlean:private-message"
+    ]
+  },
+  "range-in": {
+    "sounds": [
+      "catlean:range-in"
+    ]
+  },
+  "range-out": {
+    "sounds": [
+      "catlean:range-out"
+    ]
+  },
+  "settings-close": {
+    "sounds": [
+      "catlean:settings-close"
+    ]
+  },
+  "settings-open": {
+    "sounds": [
+      "catlean:settings-open"
+    ]
+  },
+  "shutdown": {
+    "sounds": [
+      "catlean:shutdown"
+    ]
+  },
+  "startup": {
+    "sounds": [
+      "catlean:startup"
+    ]
+  },
+  "switch-left": {
+    "sounds": [
+      "catlean:switch-left"
+    ]
+  },
+  "switch-right": {
+    "sounds": [
+      "catlean:switch-right"
+    ]
+  },
+  "totem-pop": {
+    "sounds": [
+      "catlean:totem-pop"
+    ]
+  },
+  "lego-breaking": {
+    "sounds": [
+      "catlean:lego-breaking"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "modules.common.flag-disable": "Disabled due to flag!",
+  "modules.common.no-elytra": "You don't have an elytra!",
+  "modules.common.no-fireworks": "You've got no fireworks!",
+  "modules.common.disable": "was disabled",
+  "modules.common.enable": "was enabled",
+
+  "modules.attack.auto-netherite-scrap.delay" : "Wait trap cooldown!",
+  "modules.attack.auto-netherite-scrap.distance" : "The target is too far away!",
+
+  "modules.rage.elytra-plus.elytra-durability": "Elytra's about to break!",
+  "modules.rage.elytra-plus.left": "%d seconds and %d meters left",
+  "modules.rage.elytra-plus.need-more-height": "Go above %d",
+
+  "modules.inventory.elytra-swap.done": "Swapped! Disabling..",
+  "modules.inventory.elytra-swap.no-chestplate": "You don't have a chestplate!",
+  "modules.inventory.tool-saver.switch-message": "Your tool is almost broken!",
+  "modules.inventory.elytra-replace.replaced": "Replaced elytra",
+
+  "modules.player.auto-auth.log-success": "Logged in!",
+  "modules.player.auto-auth.pass-is-empty": "Registration error: Password is empty!",
+  "modules.player.auto-auth.reg-success": "Registration completed!",
+  "modules.player.auto-fish.almost-broken": "Saving the rod...",
+  "modules.player.auto-fish.swapped": "Swapped to a new rod",
+  "modules.player.auto-respawn.respawn-message": "You died on the",
+
+  "modules.equip.elytra-swap.no-elytra" : "You don't have a elytra!",
+  "modules.equip.elytra-swap.no-chestplate" : "You don't have a chestplate!",
+  "modules.equip.elytra-swap.done-elytra" : "Swapped to elytra!",
+  "modules.equip.elytra-swap.done-chestplate" : "Swapped to chestplate!",
+  "modules.equip.middle-click.removed" : "was removed from friends!",
+  "modules.equip.middle-click.added" : "was added to friends!",
+  "modules.equip.x-carry.not-compatible": "X Carry is not compatible with current mode of Gui Move!",
+
+  "modules.esp.name-tags.removed" : "was removed from friends!",
+  "modules.esp.name-tags.added" : "was added to friends!",
+
+  "modules.esp.logout-spots.logout" : "%s was logged out on X:%d Y:%d Z:%d",
+  "modules.esp.logout-spots.login" : "%s was logged back on X:%d Y:y%d Z:%d",
+
+  "modules.misc.notifier.low-armor-title" : "Be careful!",
+  "modules.misc.notifier.low-armor-text" : "Your armor is almost broken",
+  "modules.misc.notifier.totem" : "was popped %d totem(s)!",
+  "modules.misc.notifier.death" : "died after popping %d тотем(ов)!",
+  "modules.misc.notifier.range-enter" : "%s has entered your visual range!",
+  "modules.misc.notifier.range-leave" : "%s has left your visual range!",
+  "modules.misc.notifier.server-error-title" : "The server is fucked up!",
+  "modules.misc.notifier.server-error-text" : "time from last response: %s",
+  "modules.misc.notifier.flag-title" : "LagBack detected!",
+  "modules.misc.notifier.flag-text" : "time elapsed: %s",
+  "modules.misc.notifier.mention" : "you were mentioned in the chat!",
+  "modules.misc.notifier.past-effect" : "You've run out of %s",
+  "modules.misc.notifier.collect" : "collected item: %s x%d",
+  "modules.misc.notifier.collector" : "%s collected item: %s x%d",
+  "modules.misc.notifier.splash-buff" : "%s got effects from %s %s%d",
+  "modules.misc.notifier.air-alarm-header" : "WARNING!",
+  "modules.misc.notifier.air-alarm" : "Air allarm!",
+  "modules.misc.notifier.used" : "%s used %s",
+
+  "modules.misc.spammer.empty": "The spammer file is empty!",
+
+  "modules.misc.auto-leave.player": "Logged out because there was a player",
+  "modules.misc.auto-leave.totems": "Logged out because out of totems",
+  "modules.misc.auto-leave.hp": "Logged out because ur hp is low",
+
+  "modules.misc.fast-latency.spike": "ping spike detected! %dms -> %dms",
+
+  "hub.theme-editor.primary" : "Primary",
+  "hub.theme-editor.secondary" : "Secondary",
+  "hub.theme-editor.blur" : "Blur",
+  "hub.theme-editor.widget-blur" : "Widget Blur",
+  "hub.theme-editor.outline" : "Outline",
+  "hub.theme-editor.text" : "Text",
+  "hub.theme-editor.inactive-text" : "Inactive Text",
+  "hub.theme-editor.sliders" : "Sliders",
+  "hub.theme-editor.inactive-module" : "Inactive Module",
+  "hub.theme-editor.module" : "Module",
+  "hub.theme-editor.module-outline" : "Module Outline",
+  "hub.theme-editor.inactive-module-outline" : "Inactive Module Outline",
+  "hub.theme-editor.delete" : "Delete",
+
+  "gui.discord.confirm": "Enable Discord RPC?",
+  "gui.discord.yes": "Yes!",
+  "gui.discord.no": "No...",
+
+  "gui.version.confirm": "You are using an outdated version, please install a new one",
+  "gui.version.yes": "Download",
+  "gui.version.no": "Exit",
+
+  "windows.config.open-in-explorer": "Open in Explorer",
+  "windows.config.open-in-finder": "Open in Finder",
+  "windows.config.load": "Load",
+  "windows.config.delete": "Delete",
+  "windows.config.save": "Save",
+
+  "commands.bind.no-such-button": "There is no such button",
+  "commands.bind.bound-to": " is now binded to ",
+  "commands.bind.binds": "Binds: ",
+  "commands.bind.not-exist": "Module %s does not exist",
+
+  "commands.friend.reset": "Friends are cleared",
+  "commands.friend.add": "%s is now your friend",
+  "commands.friend.remove": "%s is no longer a friend",
+  "commands.friend.empty": "Friend list is empty",
+  "commands.friend.friends": "Friends: ",
+  "commands.friend.not-exist": "Friend with name %s does not exist",
+
+  "commands.config.not-exist": "Config with name %s does not exist",
+  "commands.config.configs": "Configs: ",
+  "commands.config.loaded": "Loaded %s",
+  "commands.config.saved": "%s saved",
+  "commands.config.removed": "%s removed"
+}

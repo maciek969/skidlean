@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group = project.maven_group
+version = project.mod_version
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+// Decompiled reference source in src/main/java is not directly compilable because the
+// original bytecode is obfuscated. The mod is built from the cleaned bytecode below,
+// while the full decompiled source stays in the tree for inspection/editing.
+tasks.named('compileJava') { enabled = false }
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        filter { line -> line.replace('${version}', project.version) }
+    }
+}
+
+jar {
+    from(zipTree(file('libs/catlean_cleaned.jar'))) {
+        exclude 'META-INF/*.SF', 'META-INF/*.RSA', 'META-INF/*.DSA'
+    }
+    from('src/main/resources') {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

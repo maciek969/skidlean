@@ -1,0 +1,111 @@
+{
+  "modules.common.flag-disable": "Выключен из-за флага!",
+  "modules.common.no-elytra": "У тебя нет элитры!",
+  "modules.common.no-fireworks": "У тебя нет фейерверков!",
+  "modules.common.disable": "выключен",
+  "modules.common.enable": "включен",
+
+  "modules.attack.auto-netherite-scrap.delay" : "Трапка в кд!",
+  "modules.attack.auto-netherite-scrap.distance" : "Таргет далеко!",
+
+  "modules.rage.elytra-plus.elytra-durability": "Элитра скоро сломается!",
+  "modules.rage.elytra-plus.left": "Осталось %d секунд и %d метров",
+  "modules.rage.elytra-plus.need-more-height": "Поднимись выше %d",
+
+  "modules.inventory.elytra-swap.done": "Свапнул! Отключаю..",
+  "modules.inventory.elytra-swap.no-chestplate": "У тебя нет нагрудника!",
+  "modules.inventory.tool-saver.switch-message": "Твой инструмент почти сломался!",
+  "modules.inventory.elytra-replace.replaced": "Меняю элитру",
+
+  "modules.player.auto-auth.log-success": "Выполнен вход!",
+  "modules.player.auto-auth.pass-is-empty": "Ошибка регистрации: Пароль пуст!",
+  "modules.player.auto-auth.reg-success": "Выполнена регистрация!",
+  "modules.player.auto-fish.almost-broken": "Удочка почти сломалась!",
+  "modules.player.auto-fish.swapped": "Свапнулся на новую удочку",
+  "modules.player.auto-respawn.respawn-message": "Ты умер на",
+
+  "modules.equip.elytra-swap.no-elytra" : "У тебя нет элитры!",
+  "modules.equip.elytra-swap.no-chestplate" : "У тебя нет нагрудника!",
+  "modules.equip.elytra-swap.done-elytra" : "Свапнул на елитру!",
+  "modules.equip.elytra-swap.done-chestplate" : "Свапнул на нагрудник!",
+  "modules.equip.middle-click.removed": "удален из друзей!",
+  "modules.equip.middle-click.added": "добавлен в друзья!",
+  "modules.equip.x-carry.not-compatible": "X Carry несовместим с текущим режимом Gui Move!",
+
+  "modules.esp.name-tags.removed" : "удален из друзей!",
+  "modules.esp.name-tags.added" : "добавлен в друзья!",
+
+  "modules.esp.logout-spots.logout": "Игрок %s ливнул на координатах X:%d Y:%d Z:%d",
+  "modules.esp.logout-spots.login": "Игрок %s зашел на координатах X:%d Y:%d Z:%d",
+
+  "modules.misc.notifier.low-armor-title" : "Осторожно!",
+  "modules.misc.notifier.low-armor-text" : "Твоя броня почти треснула",
+  "modules.misc.notifier.range-enter" : "%s вошел в зону видимости!",
+  "modules.misc.notifier.range-leave" : "%s покинул зону видимости!",
+  "modules.misc.notifier.totem": "попнул %d тотем(ов)!",
+  "modules.misc.notifier.death": "умер после попа %d тотем(ов)!",
+  "modules.misc.notifier.server-error-title" : "Сервер умер!",
+  "modules.misc.notifier.server-error-text" : "не отвечает уже: %s",
+  "modules.misc.notifier.flag-title" : "Обнаружен флаг!",
+  "modules.misc.notifier.flag-text" : "прошло времени: %s",
+  "modules.misc.notifier.mention" : "тебя упомянули в чате!",
+  "modules.misc.notifier.past-effect" : "закончился бафф %s",
+  "modules.misc.notifier.collect" : "поднят предмет: %s x%d",
+  "modules.misc.notifier.collector" : "%s поднял предмет: %s x%d",
+  "modules.misc.notifier.splash-buff" : "%s получил эффекты из %s %s%d",
+  "modules.misc.notifier.air-alarm-header" : "УВАГА!",
+  "modules.misc.notifier.air-alarm" : "Повiтряна тривога!",
+  "modules.misc.notifier.used" : "%s скушал %s",
+
+  "modules.misc.spammer.empty": "Файл спаммера пуст!",
+
+  "modules.misc.auto-leave.player": "Ливнул т.к. рядом появился игрок",
+  "modules.misc.auto-leave.totems": "Ливнул т.к. кончились тотемы",
+  "modules.misc.auto-leave.hp": "Ливнул т.к. мало хп",
+
+  "modules.misc.fast-latency.spike": "обнаружен пинг спайк! %dms -> %dms",
+
+  "hub.theme-editor.primary": "Основной",
+  "hub.theme-editor.secondary": "Вторичный",
+  "hub.theme-editor.blur": "Блюр",
+  "hub.theme-editor.widget-blur": "Блюр виджетов",
+  "hub.theme-editor.outline": "Обводка",
+  "hub.theme-editor.text": "Текст",
+  "hub.theme-editor.inactive-text": "Неактивный цвет",
+  "hub.theme-editor.sliders": "Ползунки",
+  "hub.theme-editor.inactive-module": "Неактивные модули",
+  "hub.theme-editor.module": "Модули",
+  "hub.theme-editor.module-outline": "Обводка модулей",
+  "hub.theme-editor.inactive-module-outline": "Обводка неак. модулей",
+  "hub.theme-editor.delete": "Удалить",
+
+  "gui.discord.confirm": "Включить Discord RPC?",
+  "gui.discord.yes": "Да!",
+  "gui.discord.no": "Нет...",
+
+  "gui.version.confirm": "Ты используешь устаревшую версию, пожалуйста установи новую",
+  "gui.version.yes": "Скачать",
+  "gui.version.no": "Выйти",
+
+  "windows.config.load": "Загрузить",
+  "windows.config.delete": "Удалить",
+  "windows.config.save": "Сохранить",
+
+  "commands.bind.no-such-button": "Нет такой кнопки",
+  "commands.bind.bound-to": " теперь забинджен на ",
+  "commands.bind.binds": "Бинды: ",
+  "commands.bind.not-exist": "Модуля %s не существует",
+
+  "commands.friend.reset": "Друзья очищенны",
+  "commands.friend.add": "%s теперь твой друг",
+  "commands.friend.remove": "%s больше не друг",
+  "commands.friend.empty": "Список друзей пуст",
+  "commands.friend.friends": "Друзья: ",
+  "commands.friend.not-exist": "Друга с ником %s не существует",
+
+  "commands.config.not-exist": "Конфига %s не существует",
+  "commands.config.configs": "Конфиги: ",
+  "commands.config.loaded": "Загружен %s",
+  "commands.config.saved": "%s сохранен",
+  "commands.config.removed": "%s удалён"
+}
